@@ -1,0 +1,56 @@
+.intro-section
+{
+    color: #DDD;
+	background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url('../img/pts1.jpg');
+    background-size: cover;
+    background-position: center top; 
+}
+
+.request-tutor-section
+{
+
+    background: #DDD;
+}
+
+.motto-section
+{
+    color: #DDD;
+	background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url('../img/pts2.jpg');
+    background-size: cover;
+    background-position: center 200px;
+}
+
+.apply-tutor-section
+{
+
+    background: #fff;
+}
+
+.contact-section
+{
+    color: #DDD;
+	background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url('../img/pts3.jpg');
+    background-size: cover;
+    background-position: center top;
+}

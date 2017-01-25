@@ -1,0 +1,78 @@
+.register-selection-section
+{
+    height: 100%;
+
+    background: #eee;
+}
+
+.register-tutee-section h1
+{
+    padding-bottom: 30px;
+}
+
+/* Custom page header */
+.register-tutee-section .header
+{
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.register-tutee-section .header h3
+{
+    line-height: 40px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 19px;
+}
+
+/* Customize container */
+@media (min-width: 768px)
+{
+    .register-tutee-section .container
+    {
+        max-width: 730px;
+    }
+}
+.register-tutee-section .container-narrow > hr
+{
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.register-tutee-section .jumbotron
+{
+    text-align: center;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+.register-tutee-section .jumbotron .btn
+{
+    font-size: 21px;
+
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.register-tutee-section .marketing
+{
+    margin: 40px 0;
+}
+.register-tutee-section .marketing p + h4
+{
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px)
+{
+    /* Space out the masthead */
+    .register-tutee-section .header
+    {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .register-tutee-section .jumbotron
+    {
+        border-bottom: 0;
+    }
+}

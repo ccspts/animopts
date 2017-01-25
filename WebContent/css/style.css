@@ -1,0 +1,161 @@
+html, body, section {min-height:100%}
+
+body
+{
+  width: 100%;
+	padding-top: 64px;
+}
+
+#main
+{
+  height: 100%;
+  min-height: 100%;
+}
+
+/* Navigation */
+nav .btn
+{
+	margin: 4px 1px;
+}
+
+p .small
+{
+    font-size: 10px;
+}
+
+.small.note
+{
+    color: #999;
+}
+
+.avatar-small
+{
+    width: 100%;
+    max-width: 24px !important;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.home div
+{
+    min-height: 380px;
+}
+
+.parallax-container
+{
+    background-color: black; !important
+}
+
+.parallax-container div
+{
+    min-height: 380px;
+    color: white; !important
+    max-height: 380px; !important
+}
+
+.parallax-img
+{
+    opacity: 0.5;
+}
+
+.justified
+{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.vertical-center {
+    
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.no-gutter [class*="col"] {
+    padding-left:0;
+}
+
+.vertical-center h3
+{
+display:table-cell; vertical-align:middle
+}
+
+#logo
+{
+  width: 20px;
+  height: auto;
+}
+
+
+
+.avatar-medium
+{
+    width: 100%;
+    max-width: 50px !important;
+    margin-left: 70%;
+
+    border-radius: 50%;
+}
+
+.browse-tutors-section
+{
+    height: 100%;
+
+    text-align: center;
+
+    background: #fff;
+}
+
+
+
+.sched-table th,td{
+    border-collapse: separate;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.sched-table .time
+{
+    width: 50%;
+    text-align: right;
+    font-size: 12px; 
+}
+
+.sched-table .schedule.selected {
+   background-color: #f0ad4e;
+}
+
+/* Parallax */
+.parallax {
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Forms */
+.form-group .checkbox label, .form-group .radio label, .form-group label
+{
+	color: #777;
+}
+
+.logo
+{
+	margin-top: -8px;
+}
