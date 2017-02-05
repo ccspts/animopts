@@ -1,0 +1,6 @@
+<database>
+	<url>jdbc:mysql://localhost:3306/animopts</url>
+	<username>root</username>
+	<password>password</password>
+	<driver>com.mysql.jdbc.Driver</driver>
+</database>
